@@ -3,7 +3,9 @@ import { LanguageSelector } from "./LanguageSelector";
 import { ItalyMap } from "./ItalyMap";
 import { SearchBar } from "./SearchBar";
 import { CityGallery } from "./CityGallery";
-import { toggleDarkMode, toggleFavorite, isFavorite, cityEvents } from "../utils";
+import { toggleDarkMode, toggleFavorite, isFavorite, cityEvents } from "../../utils.js";
+
+
 import regionsData from "../data/regionsData";
 import translations from "../translations/i18n";
 
