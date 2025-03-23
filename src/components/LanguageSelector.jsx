@@ -1,6 +1,6 @@
 import React from "react";
 
-const LanguageSelector = ({ currentLang, setLang }) => {
+export const LanguageSelector = ({ currentLang, setLang }) => {
   return (
     <div className="mb-2">
       <label className="text-sm mr-2">🌍 Language:</label>
@@ -15,5 +15,3 @@ const LanguageSelector = ({ currentLang, setLang }) => {
     </div>
   );
 };
-
-export default LanguageSelector;
