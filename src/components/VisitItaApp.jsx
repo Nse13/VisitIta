@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LanguageSelector from "./LanguageSelector";
+import { LanguageSelector } from "./LanguageSelector";
 
 import { ItalyMap } from "./ItalyMap";
 import { SearchBar } from "./SearchBar";
