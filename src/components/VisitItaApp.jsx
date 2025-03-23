@@ -57,4 +57,4 @@ const VisitItaApp = () => {
                 {regionsData[selectedRegion].highlights.map((highlight, idx) => (
                   <li key={idx}>{highlight}</li>
                 ))}
-              </
+              </ul>
