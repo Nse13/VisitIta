@@ -89,6 +89,7 @@ const App = () => {
     </div>
   );
 };
+const VisitItaApp = () => { ... }
 
 export default VisitItaApp;
 
