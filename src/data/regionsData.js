@@ -1,222 +1,182 @@
 export const regionsData = [
   {
-    name: "Abruzzo",
-    description: "Tra l’Adriatico e l’Appennino, una regione autentica, selvaggia e sorprendente.",
-    cities: ["L'Aquila", "Pescara", "Scanno", "Civitella del Tronto", "Santo Stefano di Sessanio"],
-    nature: ["Parco Nazionale d'Abruzzo", "Gran Sasso e Campo Imperatore", "Costa dei Trabocchi"],
-    attractions: ["Rocca Calascio", "Eremo di Santo Spirito", "Gole del Sagittario", "Abbazia di San Clemente a Casauria"],
-    localFood: ["Arrosticini", "Timballo alla teramana", "Pasta alla chitarra", "Confetti di Sulmona"],
-    activities: ["Trekking sul Gran Sasso", "Ciclismo lungo la Costa dei Trabocchi", "Passeggiate a cavallo nei borghi medievali", "Sciare a Campo Felice"],
-    mustVisit: ["Rocca Calascio al tramonto", "Dormire a Santo Stefano di Sessanio"],
-    image: "/images/abruzzo.jpg"
+    name: "Piemonte",
+    image: "/images/regioni/piemonte.jpg",
+    natura: ["/images/natura/val_d_orcia.jpg"],
+    attrazioni: ["/images/attrazioni/colosseo.jpg"],
+    cibo: ["/images/cibo/arrosticini.jpg"],
+    attivita: ["/images/attivita/trekking_gran_sasso.jpg"],
+    mustVisit: ["/images/mustvisit/civita_bagnoregio.jpg"]
+  },
+  {
+    name: "Valle d'Aosta",
+    image: "/images/regioni/valle-d-aosta.jpg",
+    natura: ["/images/natura/monte_bianco.jpg"],
+    attrazioni: ["/images/attrazioni/castello_fenis.jpg"],
+    cibo: ["/images/cibo/fonduta_valdostana.jpg"],
+    attivita: ["/images/attivita/sci_cervinia.jpg"],
+    mustVisit: ["/images/mustvisit/skyway_monte_bianco.jpg"]
+  },
+  {
+    name: "Lombardia",
+    image: "/images/regioni/lombardia.jpg",
+    natura: ["/images/natura/lago_como.jpg"],
+    attrazioni: ["/images/attrazioni/duomo_milano.jpg"],
+    cibo: ["/images/cibo/cotoletta_milanese.jpg"],
+    attivita: ["/images/attivita/shopping_milano.jpg"],
+    mustVisit: ["/images/mustvisit/sforzesco.jpg"]
+  },
+  {
+    name: "Veneto",
+    image: "/images/regioni/veneto.jpg",
+    natura: ["/images/natura/dolomiti.jpg"],
+    attrazioni: ["/images/attrazioni/piazza_san_marco.jpg"],
+    cibo: ["/images/cibo/risi_bisi.jpg"],
+    attivita: ["/images/attivita/giro_gondola.jpg"],
+    mustVisit: ["/images/mustvisit/arena_verona.jpg"]
+  },
+  {
+    name: "Trentino-Alto Adige",
+    image: "/images/regioni/trentino-alto-adige.jpg",
+    natura: ["/images/natura/lago_braies.jpg"],
+    attrazioni: ["/images/attrazioni/bolzano_castello.jpg"],
+    cibo: ["/images/cibo/strudel.jpg"],
+    attivita: ["/images/attivita/sci_val_gardena.jpg"],
+    mustVisit: ["/images/mustvisit/mercatini_natale.jpg"]
+  },
+  {
+    name: "Friuli-Venezia Giulia",
+    image: "/images/regioni/friuli-venezia-giulia.jpg",
+    natura: ["/images/natura/laghi_fusine.jpg"],
+    attrazioni: ["/images/attrazioni/castello_miramare.jpg"],
+    cibo: ["/images/cibo/frico.jpg"],
+    attivita: ["/images/attivita/trekking_carnia.jpg"],
+    mustVisit: ["/images/mustvisit/grotta_gigante.jpg"]
+  },
+  {
+    name: "Liguria",
+    image: "/images/regioni/liguria.jpg",
+    natura: ["/images/natura/cinque_terre.jpg"],
+    attrazioni: ["/images/attrazioni/genova_acquario.jpg"],
+    cibo: ["/images/cibo/pesto.jpg"],
+    attivita: ["/images/attivita/sentiero_azzurro.jpg"],
+    mustVisit: ["/images/mustvisit/vernazza.jpg"]
+  },
+  {
+    name: "Emilia-Romagna",
+    image: "/images/regioni/emilia-romagna.jpg",
+    natura: ["/images/natura/appennino_emiliano.jpg"],
+    attrazioni: ["/images/attrazioni/san_marino.jpg"],
+    cibo: ["/images/cibo/tortellini.jpg"],
+    attivita: ["/images/attivita/fiera_cibo_parma.jpg"],
+    mustVisit: ["/images/mustvisit/rimini.jpg"]
+  },
+  {
+    name: "Toscana",
+    image: "/images/regioni/toscana.jpg",
+    natura: ["/images/natura/val_d_orcia.jpg"],
+    attrazioni: ["/images/attrazioni/piazza_del_campo.jpg"],
+    cibo: ["/images/cibo/bistecca_fiorentina.jpg"],
+    attivita: ["/images/attivita/degustazione_chianti.jpg"],
+    mustVisit: ["/images/mustvisit/san_gimignano_tramonto.jpg"]
+  },
+  {
+    name: "Umbria",
+    image: "/images/regioni/umbria.jpg",
+    natura: ["/images/natura/cascata_marmore.jpg"],
+    attrazioni: ["/images/attrazioni/basilica_san_francesco.jpg"],
+    cibo: ["/images/cibo/tartufo_nero.jpg"],
+    attivita: ["/images/attivita/cammino_francescano.jpg"],
+    mustVisit: ["/images/mustvisit/spello.jpg"]
+  },
+  {
+    name: "Marche",
+    image: "/images/regioni/marche.jpg",
+    natura: ["/images/natura/grotte_frasassi.jpg"],
+    attrazioni: ["/images/attrazioni/palazzo_urbino.jpg"],
+    cibo: ["/images/cibo/olive_ascolane.jpg"],
+    attivita: ["/images/attivita/trekking_sibillini.jpg"],
+    mustVisit: ["/images/mustvisit/recanati.jpg"]
+  },
+  {
+    name: "Lazio",
+    image: "/images/regioni/lazio.jpg",
+    natura: ["/images/natura/lago_bolsena.jpg"],
+    attrazioni: ["/images/attrazioni/colosseo.jpg"],
+    cibo: ["/images/cibo/carbonara.jpg"],
+    attivita: ["/images/attivita/visita_vaticano.jpg"],
+    mustVisit: ["/images/mustvisit/civita_bagnoregio.jpg"]
+  },
+  {
+    name: "Campania",
+    image: "/images/regioni/campania.jpg",
+    natura: ["/images/natura/costa_amalfitana.jpg"],
+    attrazioni: ["/images/attrazioni/pompei.jpg"],
+    cibo: ["/images/cibo/mozzarella_bufala.jpg"],
+    attivita: ["/images/attivita/giro_barca_capri.jpg"],
+    mustVisit: ["/images/mustvisit/positano.jpg"]
+  },
+  {
+    name: "Molise",
+    image: "/images/regioni/molise.jpg",
+    natura: ["/images/natura/parco_majelia.jpg"],
+    attrazioni: ["/images/attrazioni/castello_monteroduni.jpg"],
+    cibo: ["/images/cibo/pampanella.jpg"],
+    attivita: ["/images/attivita/sagre_molise.jpg"],
+    mustVisit: ["/images/mustvisit/agnone.jpg"]
   },
   {
     name: "Basilicata",
-    description: "Paesaggi lunari, borghi arroccati e una costa sorprendente.",
-    cities: ["Matera", "Maratea", "Castelmezzano", "Rivello", "Pietrapertosa"],
-    nature: ["Dolomiti Lucane", "Parco del Pollino", "Spiaggia Nera di Maratea"],
-    attractions: ["Sassi di Matera", "Cristo di Maratea", "Volo dell'Angelo", "Castello di Melfi"],
-    localFood: ["Crapiata", "Pecorino di Filiano", "Strazzata", "Peperoni cruschi"],
-    activities: ["Escursioni tra le Dolomiti Lucane", "Parapendio sul Pollino", "Visitare Matera sotterranea"],
-    mustVisit: ["Tramonto sui Sassi", "Il Volo dell’Angelo tra Castelmezzano e Pietrapertosa"],
-    image: "/images/basilicata.jpg"
+    image: "/images/regioni/basilicata.jpg",
+    natura: ["/images/natura/dolomiti_lucane.jpg"],
+    attrazioni: ["/images/attrazioni/sassi_matera.jpg"],
+    cibo: ["/images/cibo/peperoni_cruschi.jpg"],
+    attivita: ["/images/attivita/volo_angelo.jpg"],
+    mustVisit: ["/images/mustvisit/castelmezzano.jpg"]
   },
   {
     name: "Calabria",
-    description: "Spiagge cristalline, montagne silenziose e una cultura fortissima.",
-    cities: ["Tropea", "Gerace", "Scilla", "Cosenza", "Stilo"],
-    nature: ["Costa degli Dei", "Parco Nazionale della Sila", "Gole del Raganello"],
-    attractions: ["Bronzi di Riace", "Castello Ruffo di Scilla", "Cattolica di Stilo"],
-    localFood: ["Nduja di Spilinga", "Cipolla rossa di Tropea", "Lagane e ceci"],
-    activities: ["Snorkeling in Costa Viola", "Escursioni nella Sila", "Visitare i borghi bizantini"],
-    mustVisit: ["Scilla e Chianalea", "Degustazione tipica a Gerace"],
-    image: "/images/calabria.jpg"
+    image: "/images/regioni/calabria.jpg",
+    natura: ["/images/natura/parco_sila.jpg"],
+    attrazioni: ["/images/attrazioni/bronzi_riace.jpg"],
+    cibo: ["/images/cibo/nduja.jpg"],
+    attivita: ["/images/attivita/escursione_sila.jpg"],
+    mustVisit: ["/images/mustvisit/scilla.jpg"]
+  },
+  {
+    name: "Puglia",
+    image: "/images/regioni/puglia.jpg",
+    natura: ["/images/natura/gargano.jpg"],
+    attrazioni: ["/images/attrazioni/castel_del_monte.jpg"],
+    cibo: ["/images/cibo/orecchiette.jpg"],
+    attivita: ["/images/attivita/vela_salento.jpg"],
+    mustVisit: ["/images/mustvisit/alberobello.jpg"]
+  },
+  {
+    name: "Sardegna",
+    image: "/images/regioni/sardegna.jpg",
+    natura: ["/images/natura/cala_luna.jpg"],
+    attrazioni: ["/images/attrazioni/nuoro.jpg"],
+    cibo: ["/images/cibo/porceddu.jpg"],
+    attivita: ["/images/attivita/snorkeling_sardegna.jpg"],
+    mustVisit: ["/images/mustvisit/cala_gonone.jpg"]
+  },
+  {
+    name: "Sicilia",
+    image: "/images/regioni/sicilia.jpg",
+    natura: ["/images/natura/etna.jpg"],
+    attrazioni: ["/images/attrazioni/teatro_greco_taormina.jpg"],
+    cibo: ["/images/cibo/cannoli.jpg"],
+    attivita: ["/images/attivita/escursione_etna.jpg"],
+    mustVisit: ["/images/mustvisit/erice_tramonto.jpg"]
+  },
+  {
+    name: "Abruzzo",
+    image: "/images/regioni/abruzzo.jpg",
+    natura: ["/images/natura/gran_sasso.jpg"],
+    attrazioni: ["/images/attrazioni/rocca_calascio.jpg"],
+    cibo: ["/images/cibo/arrosticini.jpg"],
+    attivita: ["/images/attivita/trekking_gran_sasso.jpg"],
+    mustVisit: ["/images/mustvisit/santo_stefano_sessanio.jpg"]
   }
 ];
-{
-  name: "Campania",
-  description: "Storia millenaria, mare incantevole e sapori inconfondibili.",
-  cities: ["Napoli", "Salerno", "Amalfi", "Caserta", "Sant'Agata de' Goti"],
-  nature: ["Costiera Amalfitana", "Parco del Cilento", "Vesuvio"],
-  attractions: ["Scavi di Pompei", "Reggia di Caserta", "Duomo di Amalfi"],
-  localFood: ["Pizza napoletana", "Sfogliatella", "Mozzarella di bufala", "Limoncello"],
-  activities: ["Passeggiate a Positano", "Escursione al cratere del Vesuvio", "Giro in barca a Capri"],
-  mustVisit: ["Tramonto sulla Costiera", "Pompei con guida locale"],
-  image: "/images/campania.jpg"
-},
-{
-  name: "Emilia-Romagna",
-  description: "Cultura, motori e gastronomia nel cuore dell’Italia.",
-  cities: ["Bologna", "Parma", "Ravenna", "Brisighella", "Dozza"],
-  nature: ["Appennino Tosco-Emiliano", "Valli di Comacchio", "Delta del Po"],
-  attractions: ["Mosaici di Ravenna", "Museo Ferrari", "Rocca di Dozza"],
-  localFood: ["Lasagne", "Tortellini", "Parmigiano Reggiano", "Aceto balsamico"],
-  activities: ["Degustazione di salumi", "Tour in moto storica", "Passeggiate nei borghi medievali"],
-  mustVisit: ["Mosaici di San Vitale", "Bologna vista da San Luca"],
-  image: "/images/emilia-romagna.jpg"
-}
-{
-  name: "Friuli-Venezia Giulia",
-  description: "Una regione di confine, multiculturale e piena di contrasti tra montagna e mare.",
-  cities: ["Trieste", "Udine", "Cividale del Friuli", "Grado", "Aquileia"],
-  nature: ["Dolomiti Friulane", "Laguna di Grado", "Carso triestino"],
-  attractions: ["Castello di Miramare", "Basilica di Aquileia", "Grotta Gigante"],
-  localFood: ["Frico", "Jota", "Prosciutto di San Daniele", "Gubana"],
-  activities: ["Escursioni sul Carso", "Visite storiche a Cividale", "Bagni termali a Grado"],
-  mustVisit: ["Tramonto dal molo Audace a Trieste", "Grotta Gigante"],
-  image: "/images/friuli.jpg"
-},
-{
-  name: "Lazio",
-  description: "Dove la grandezza di Roma incontra l'autenticità dei borghi.",
-  cities: ["Roma", "Civita di Bagnoregio", "Tivoli", "Sperlonga", "Viterbo"],
-  nature: ["Lago di Bolsena", "Monti della Tolfa", "Parco Nazionale del Circeo"],
-  attractions: ["Foro Romano", "Villa d'Este", "Castelli Romani"],
-  localFood: ["Carbonara", "Amatriciana", "Porchetta di Ariccia", "Supplì"],
-  activities: ["Passeggiate ai Castelli", "Tour archeologici", "Relax nelle terme di Viterbo"],
-  mustVisit: ["Civita di Bagnoregio", "Villa Adriana a Tivoli"],
-  image: "/images/lazio.jpg"
-},
-{
-  name: "Liguria",
-  description: "Una striscia di terra tra il blu del mare e il verde delle montagne.",
-  cities: ["Genova", "Camogli", "Portovenere", "Finalborgo", "Cervo"],
-  nature: ["Cinque Terre", "Parco di Portofino", "Alta Via dei Monti Liguri"],
-  attractions: ["Acquario di Genova", "San Fruttuoso", "Via dell'Amore"],
-  localFood: ["Pesto", "Focaccia genovese", "Trofie", "Acciughe di Monterosso"],
-  activities: ["Trekking alle Cinque Terre", "Giro in barca a Portofino", "Degustazioni in cantina"],
-  mustVisit: ["Sentiero Azzurro", "San Fruttuoso raggiungibile solo via mare o sentiero"],
-  image: "/images/liguria.jpg"
-},
-{
-  name: "Lombardia",
-  description: "Una delle regioni più dinamiche, con città, laghi e montagne da scoprire.",
-  cities: ["Milano", "Bergamo Alta", "Varenna", "Mantova", "Monza"],
-  nature: ["Lago di Como", "Valtellina", "Parco dello Stelvio"],
-  attractions: ["Duomo di Milano", "Castello Sforzesco", "Teatro alla Scala"],
-  localFood: ["Risotto alla milanese", "Pizzoccheri", "Panettone", "Casoncelli"],
-  activities: ["Giro in battello sul lago", "Visite culturali a Mantova", "Sci in Valtellina"],
-  mustVisit: ["Navigli di Milano", "Borgo di Varenna sul Lago di Como"],
-  image: "/images/lombardia.jpg"
-},
-{
-  name: "Marche",
-  description: "Una regione sospesa tra arte, natura e spiritualità.",
-  cities: ["Urbino", "Loreto", "Ascoli Piceno", "Offida", "Sirolo"],
-  nature: ["Monte Conero", "Grotte di Frasassi", "Monti Sibillini"],
-  attractions: ["Palazzo Ducale di Urbino", "Santuario di Loreto", "Piazza del Popolo di Ascoli"],
-  localFood: ["Olive all'ascolana", "Vincisgrassi", "Ciauscolo", "Brodetto"],
-  activities: ["Escursioni nel Conero", "Visita alle grotte", "Gite nei borghi"],
-  mustVisit: ["Vista dal Belvedere di Sirolo", "Grotte di Frasassi"],
-  image: "/images/marche.jpg"
-}
-{
-  name: "Molise",
-  description: "Piccola, selvaggia e autentica: la regione che esiste eccome!",
-  cities: ["Campobasso", "Termoli", "Agnone", "Bagnoli del Trigno", "Sepino"],
-  nature: ["Monti del Matese", "Costa Molisana", "Oasi WWF Guardiaregia"],
-  attractions: ["Teatro sannitico di Pietrabbondante", "Castello di Civitacampomarano", "Santuario dell'Addolorata"],
-  localFood: ["Caciocavallo", "Pampanella", "Fusilli molisani", "Tintilia del Molise"],
-  activities: ["Escursioni nei tratturi", "Borghi d’altura", "Relax sul mare di Termoli"],
-  mustVisit: ["Sepino antica", "Tramonto dal borgo di Agnone"],
-  image: "/images/molise.jpg"
-},
-{
-  name: "Piemonte",
-  description: "Eleganza sabauda, colline del vino e Alpi maestose.",
-  cities: ["Torino", "Saluzzo", "Asti", "Alba", "Stresa"],
-  nature: ["Langhe", "Monferrato", "Parco del Gran Paradiso"],
-  attractions: ["Museo Egizio", "Sacra di San Michele", "Reggia di Venaria"],
-  localFood: ["Bagna cauda", "Tajarin al tartufo", "Gianduiotti", "Vitello tonnato"],
-  activities: ["Degustazioni in cantina", "Sci e trekking", "Tour enogastronomici"],
-  mustVisit: ["Alba durante la Fiera del Tartufo", "Vista dal Monte dei Cappuccini a Torino"],
-  image: "/images/piemonte.jpg"
-},
-{
-  name: "Puglia",
-  description: "Mare da sogno, borghi bianchi e sapori intensi.",
-  cities: ["Lecce", "Ostuni", "Polignano a Mare", "Alberobello", "Vieste"],
-  nature: ["Gargano", "Valle d’Itria", "Salento"],
-  attractions: ["Trulli di Alberobello", "Castel del Monte", "Cattedrale di Trani"],
-  localFood: ["Orecchiette alle cime di rapa", "Pane di Altamura", "Focaccia barese", "Pasticiotto"],
-  activities: ["Snorkeling nel Salento", "Passeggiate nei borghi", "Giro in barca a Polignano"],
-  mustVisit: ["Trulli al tramonto", "Mare di Vieste"],
-  image: "/images/puglia.jpg"
-},
-{
-  name: "Sardegna",
-  description: "Spiagge caraibiche, storia antica e natura incontaminata.",
-  cities: ["Cagliari", "Bosa", "Alghero", "Orgosolo", "Santa Teresa di Gallura"],
-  nature: ["Golfo di Orosei", "Supramonte", "Parco dell’Asinara"],
-  attractions: ["Nuraghe di Barumini", "Grotta di Nettuno", "Murales di Orgosolo"],
-  localFood: ["Porceddu", "Pane carasau", "Seadas", "Culurgiones"],
-  activities: ["Trekking nel Supramonte", "Mare in Costa Smeralda", "Visite ai nuraghi"],
-  mustVisit: ["Cala Luna", "Murales di Orgosolo"],
-  image: "/images/sardegna.jpg"
-},
-{
-  name: "Sicilia",
-  description: "Un mondo a parte, tra vulcani, templi e mare.",
-  cities: ["Palermo", "Siracusa", "Taormina", "Noto", "Erice"],
-  nature: ["Etna", "Riserva dello Zingaro", "Isole Eolie"],
-  attractions: ["Valle dei Templi", "Teatro Greco di Taormina", "Duomo di Monreale"],
-  localFood: ["Arancini", "Cannoli", "Caponata", "Pasta alla Norma"],
-  activities: ["Salita sull’Etna", "Barocco tour", "Mare alle Egadi"],
-  mustVisit: ["Tramonto su Erice", "Etna in escursione"],
-  image: "/images/sicilia.jpg"
-},
-{
-  name: "Toscana",
-  description: "Colline dorate, città d’arte e borghi incantevoli.",
-  cities: ["Firenze", "San Gimignano", "Siena", "Volterra", "Pienza"],
-  nature: ["Val d’Orcia", "Chianti", "Maremma"],
-  attractions: ["Duomo di Firenze", "Piazza del Campo", "Terme di Saturnia"],
-  localFood: ["Bistecca alla fiorentina", "Pici all’aglione", "Cantucci e Vin Santo", "Ribollita"],
-  activities: ["Wine tour nel Chianti", "Passeggiate nelle Crete Senesi", "Visita a terme naturali"],
-  mustVisit: ["San Gimignano al tramonto", "Bagno alle Cascate del Mulino"],
-  image: "/images/toscana.jpg"
-},
-{
-  name: "Trentino-Alto Adige",
-  description: "Montagne imponenti, laghi turchesi e cultura mitteleuropea.",
-  cities: ["Bolzano", "Trento", "Merano", "Vipiteno", "Canazei"],
-  nature: ["Dolomiti", "Lago di Braies", "Val di Funes"],
-  attractions: ["Castel Tirolo", "Museo Ötzi", "Mercatini di Natale"],
-  localFood: ["Canederli", "Strudel", "Speck", "Zelten"],
-  activities: ["Escursioni alpine", "Sci in Val Gardena", "Relax alle terme di Merano"],
-  mustVisit: ["Lago di Braies", "Vista sulle Odle da Santa Maddalena"],
-  image: "/images/trentino.jpg"
-},
-{
-  name: "Umbria",
-  description: "Il cuore verde d’Italia, tra spiritualità e natura.",
-  cities: ["Perugia", "Assisi", "Spello", "Gubbio", "Narni"],
-  nature: ["Cascata delle Marmore", "Monte Subasio", "Lago Trasimeno"],
-  attractions: ["Basilica di San Francesco", "Pozzo di San Patrizio", "Palazzo dei Priori"],
-  localFood: ["Tartufo nero", "Strangozzi", "Porchetta umbra", "Rocciata"],
-  activities: ["Cammini spirituali", "Sagre di paese", "Escursioni nei monti"],
-  mustVisit: ["Assisi di sera", "Cascata delle Marmore"],
-  image: "/images/umbria.jpg"
-},
-{
-  name: "Valle d'Aosta",
-  description: "Piccola ma maestosa, dominata dalle vette più alte d’Europa.",
-  cities: ["Aosta", "Courmayeur", "Cogne", "Etroubles", "Bard"],
-  nature: ["Monte Bianco", "Gran Paradiso", "Val Ferret"],
-  attractions: ["Castello di Fénis", "Forte di Bard", "Skyway Monte Bianco"],
-  localFood: ["Fontina", "Polenta concia", "Lardo di Arnad", "Carbonade"],
-  activities: ["Escursioni in alta quota", "Sci e terme", "Ciaspolate"],
-  mustVisit: ["Skyway Monte Bianco", "Castello di Fénis innevato"],
-  image: "/images/valledaosta.jpg"
-},
-{
-  name: "Veneto",
-  description: "Tra lagune, ville palladiane, montagne e città d’arte.",
-  cities: ["Venezia", "Verona", "Bassano del Grappa", "Asolo", "Cortina d'Ampezzo"],
-  nature: ["Dolomiti Bellunesi", "Laguna di Venezia", "Delta del Po"],
-  attractions: ["Canal Grande", "Arena di Verona", "Villa Barbaro"],
-  localFood: ["Baccalà mantecato", "Risi e bisi", "Sarde in saor", "Tiramisù"],
-  activities: ["Giro in gondola", "Visita ai mercati storici", "Trekking sulle Dolomiti"],
-  mustVisit: ["Tramonto a Burano", "Opera all'Arena di Verona"],
-  image: "/images/veneto.jpg"
-}
