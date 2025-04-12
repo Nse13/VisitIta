@@ -1,0 +1,9 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "ignoreCommand": "echo 'Vercel Build - no ignore'",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
